@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mwesigwa Jatius - Bio</title>
+    <style>
+        body {
+            background-color: #f8f9fa;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        .hero {
+            background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('jat1.png') no-repeat center center;
+            background-size: cover;
+            height: 60vh;
+            color: white;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            position: relative;
+            margin-bottom: 40px; /* Increased margin for better separation */
+        }
+        .hero h1 {
+            font-size: 3rem;
+            animation: fadeIn 1.5s ease-in-out;
+        }
+        .hero p {
+            font-size: 1.5rem;
+            animation: fadeIn 2s ease-in-out;
+        }
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+        .card {
+            background-color: white;
+            border-radius: 15px;
+            box-shadow: 0 4px 30px rgba(0, 0, 0, 0.2);
+            padding: 20px;
+            margin: 0 auto; /* Center the card */
+            width: 90%;
+            max-width: 600px; /* Limit the card width */
+        }
+        .card h2 {
+            margin-top: 0; /* Remove top margin */
+        }
+        .footer {
+            background-color: #343a40;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+            margin-top: 40px; /* Add margin for spacing */
+        }
+        .social-icons a {
+            margin: 0 10px;
+            color: #343a40;
+            font-size: 1.5rem;
+            transition: transform 0.2s;
+            text-decoration: none;
+        }
+        .social-icons a:hover {
+            transform: scale(1.2);
+        }
+        .img-fluid {
+            max-width: 100%;
+            height: auto;
+        }
+        .rounded-circle {
+            border-radius: 50%;
+        }
+    </style>
+</head>
+<body>
+
+<header class="hero">
+    <div>
+        <h1 class="display-4 fw-bold">Mwesigwa Jatius</h1>
+        <p class="lead">Bachelor's Degree in Computer Science</p>
+    </div>
+</header>
+
+<div class="container my-5">
+    <div class="card">
+        <h2>About Me</h2>
+        <img src="jat1.png" alt="Mwesigwa Jatius" class="img-fluid rounded-circle mb-3" style="width: 150px; height: 150px;">
+        <p>
+            I am Mwesigwa Jatius, a student at Mountains of the Moon University pursuing a Bachelor's degree in Computer Science. 
+            My passion lies in software development and exploring new technologies. I enjoy problem-solving and am eager to learn 
+            and grow in the field of technology.
+        </p>
+
+        <h3>Education</h3>
+        <p>
+            <strong>Mountains of the Moon University</strong><br>
+            Bachelor's in Computer Science<br>
+            Expected Graduation: 2024
+        </p>
+
+        <h3>Projects</h3>
+        <ul>
+            <li>
+                <strong><a href="index.html" target="_blank">Personal Portfolio Website</a></strong> - 
+                A responsive website showcasing my skills and projects.
+            </li>
+            <li>
+                <strong><a href="https://ritahkomujuni.netlify.app/" target="_blank">Canine Safaris Limited Website</a></strong> - 
+                A website for canine safaris, a tourism company.
+            </li>
+            <li>
+                <strong><a href="https://mwesijat.netlify.app/" target="_blank">Ruyonga Dairy Farm Website</a></strong> - 
+                A website for advertising Ruyonga dairy farm products.
+            </li>
+        </ul>
+
+        <h3>Skills</h3>
+        <ul>
+            <li>Programming Languages: Python, JavaScript, C++</li>
+            <li>Web Technologies: HTML, CSS, Bootstrap, React</li>
+            <li>Databases: MySQL, MongoDB</li>
+            <li>Tools: Git, Docker, Visual Studio Code</li>
+        </ul>
+
+        <h3>Contact</h3>
+        <p>Email: <a href="mailto:mwesigwa.jatius@gmail.com">mwesigwajatius@gmail.com</a></p>
+        <div class="social-icons">
+            <a href="https://www.linkedin.com/in/mwesigwa-jatius" target="_blank">LinkedIn</a>
+            <a href="https://github.com/wesigwajatius" target="_blank">GitHub</a>
+        </div>
+    </div>
+</div>
+
+<footer class="footer">
+    <p>&copy; 2025 Mwesigwa Jatius. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
